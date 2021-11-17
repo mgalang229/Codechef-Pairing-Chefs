@@ -19,7 +19,7 @@ int main() {
 		}
 		// start from the end of the sequence of pairs in order to get the maximum
 		// insert the pairs in a set to be able to check the distinct indices that we
-		// have formed and both of the indices are distinct, then keep its i-th line as the answer
+		// have formed and if both of the indices are distinct, then keep its i-th line as the answer
 		set<int> s;
 		vector<int> ans;
 		for (int i = m - 1; i >= 0; i--) {
